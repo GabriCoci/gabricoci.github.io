@@ -1,0 +1,146 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 15px #0066ff;
+  color: #c7c7c7;
+}
+
+#formazione {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-bottom: 300px;
+}
+
+.schoolbox h1 {
+  color: #fff;
+  font-size: 32px;
+  text-shadow: 1px 1px 3px #000;
+  padding-top: 20px;
+}
+
+p {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.schoolbox {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  border-radius: 6px;
+  text-align: left;
+  padding: 0 20px 0 20px;
+  transition: transform .2s ease-in-out;
+}
+
+.schoolbox:hover {
+  transform: translateY(-10px);
+}
+
+.schoolbox:active {
+  transform: translateY(0px);
+  transition: transform .2s ease-in-out;
+}
+
+.schoolbox #odd {
+  display: inline; 
+  position: relative; 
+  top: -208px;
+  left: 600px; 
+  height: 300px; 
+  width: 500px;
+}
+
+.schoolbox #even {
+  display: inline; 
+  position: relative; 
+  top: -165px;
+  left: -600px; 
+  height: 300px; 
+  width: 500px;
+}
+
+#elem {
+  top: -100px;
+  left: 300px;
+  background-color: darksalmon;
+}
+
+#medie {
+  top: 0px;
+  right: -1050px;
+  background-color: aquamarine;
+}
+
+#super {
+  top: 50px;
+  left: 300px;
+  background-color: darkcyan;
+}
+
+#title {
+  margin: 150px auto 200px auto;
+  text-align: center;
+}
+
+#title h1 {
+    top: 300px;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+  }
+
+.numbers::after {
+    content: counter(count);
+    animation: counter 2s forwards; /* Animation duration and fill mode */
+  }
+
+  @keyframes counter {
+    0% {
+        counter-increment: count 0;
+      }
+    5% {
+        counter-increment: count 1;
+      }
+    10% {
+        counter-increment: count 2;
+      }
+    15% {
+        counter-increment: count 3;
+      }
+    20% {
+        counter-increment: count 4;
+      }
+    25% {
+        counter-increment: count 5;
+      }
+    30% {
+        counter-increment: count 6;
+      }
+    40% {
+        counter-increment: count 7;
+      }
+    50% {
+        counter-increment: count 8;
+      }
+    60% {
+        counter-increment: count 9;
+      }
+    70% {
+        counter-increment: count 10;
+      }
+    80% {
+        counter-increment: count 11;
+      }
+    90% {
+        counter-increment: count 12;
+      }
+    100% {
+        counter-increment: count 13;
+    }
+  }
+  

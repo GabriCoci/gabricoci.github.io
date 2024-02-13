@@ -1,0 +1,55 @@
+#listapcto {
+    margin: 150px auto 200px auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+}
+
+#listapcto > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Add spacing between items */
+}
+
+.attivita {
+    transition: all .3s ease-out;
+    border-radius: 5px;
+}
+
+#stre:hover {
+    transition: all .3s ease-in;
+    box-shadow: 0 0 8px 1px #d80808, 0 0 15px 1px #d80808, 0 0 15px 1px #d80808, 0 0 20px 2px #d80808;
+}
+
+#lcocito:hover {
+    transition: all .3s ease-in;
+    box-shadow: 0 0 8px 1px #41c948, 0 0 15px 1px #41c948, 0 0 15px 1px #41c948, 0 0 20px 2px #41c948;
+}
+
+#info:hover {
+    transition: all .3s ease-in;
+    box-shadow: 0 0 8px 1px #1983da, 0 0 15px 1px #1983da, 0 0 15px 1px #1983da, 0 0 20px 2px #1983da;
+}
+
+#listapcto > div > img {
+    height: 180px;
+    width: 180px;
+    
+    padding-right: 5%;
+    float: left;
+}
+
+#listapcto > div > h1 {
+    max-width: 40vh;
+    min-width: 40vh;
+    text-align: left;
+}
+
+#listapcto > div > p {
+    margin-right: 10%;
+    margin-left: 5%;
+    font-size: 18px;
+    text-align: left;
+}
